@@ -8,16 +8,9 @@ body{
 }
 
 :root{
-    --primary-color: #605dcb;
+    --primary-color: #E60023;
     --secondary-color: #8b89e6;
     --accent-color: #e8e7fa;
     --shadow-color: #e8ebeb;
 }
 
-button.primary{
-    padding: 10px;
-    border: solid 1px var(--primary-color);
-    background: var(--primary-color);
-    color: white;
-    border-radius: 8px; 
-}
