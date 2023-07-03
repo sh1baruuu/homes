@@ -2,11 +2,12 @@
     background: white;
     border-radius: 10px;
     padding-bottom: 30px;
+    position: relative;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .listing-heading {
-    color: var(--primary-color);
+    color: black;
     padding: 10px 20px 0 20px;
 }
 .listing-photo {
@@ -27,6 +28,11 @@ section.listing a {
     padding-left: 20px;
     text-decoration: none;
     color: var(--primary-color);
+    margin-left: auto;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    font-weight: 600;
 }
 section.listing a::after {
     content: "\203A";
